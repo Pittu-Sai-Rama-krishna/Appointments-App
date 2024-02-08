@@ -1,0 +1,51 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  color: #171f46;
+}
+
+.appointment-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #9897f0;
+  background-color: white;
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 25vw;
+}
+.appointment-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.appointment-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.appointment-date {
+  font-size: 15px;
+}
+.appointment-image-button {
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin: 10px;
+}
+.appointment-image {
+  width: 30px;
+}
+
+@media (min-width: 768px) {
+  .appointment-image {
+    width: 40px;
+  }
+
+  .appointment-item-container {
+    margin-right: 20px;
+  }
+}
