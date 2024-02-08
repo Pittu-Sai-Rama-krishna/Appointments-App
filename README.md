@@ -21,6 +21,9 @@ This is an Appointments App where users can add appointments with titles and dat
 3. Install dependencies using `npm install`.
 4. Start the development server using `npm start`.
 
+### Published App
+- [View the Appointments App](https://apointmentbysai.ccbp.tech/)
+
 ### Components Structure
 ![Components Structure](https://assets.ccbp.in/frontend/content/react-js/appointments-app-component-breakdown-structure.png)
 
@@ -30,10 +33,6 @@ This is an Appointments App where users can add appointments with titles and dat
 - `src/components/AppointmentItem/index.js`
 - `src/components/AppointmentItem/index.css`
 
-### Quick Tips
-- Use the HTML input element with the type `date` for date selection.
-- Utilize the `format` function from the date-fns package to format dates.
-- Ensure the star button in each appointment has the data-testid attribute as **star**.
 
 ### Design Files
 - [Extra Small and Small](https://assets.ccbp.in/frontend/content/react-js/appointments-app-sm-output-v2.png)
@@ -55,13 +54,3 @@ This is an Appointments App where users can add appointments with titles and dat
 
 ### Font-families
 - Roboto
-
-### Completion Instructions
-1. Initially, the list of appointments should be empty, and the title input and date input should be empty.
-2. When non-empty values are provided for the title and date and the **Add** button is clicked:
-   - A new appointment should be added to the list of appointments.
-   - The value inside the input elements for the title and date should be updated to their initial values.
-3. When the **Star** on an appointment is clicked, the appointment should be starred.
-4. The status of the **Starred** filter should be updated by clicking on it.
-5. When the **Starred** filter is active, all the starred appointments should be filtered and displayed.
-6. When the **Starred** filter is inactive, the list of all appointments should be displayed.
